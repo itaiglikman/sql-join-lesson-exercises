@@ -1,1 +1,4 @@
-USE sql_intro;
+USE hospital;
+
+SELECT COUNT(*) FROM patient WHERE disease = 'cabbage disease'
+`
